@@ -160,3 +160,5 @@ Disclaimer: Module ini tidak berafiliasi dengan Xiaomi atau MediaTek. Gunakan de
 ---
 
 Download file zip dibawah ini 👇
+
+https://github.com/istofiyusuf/gaming-performance-rn10s/releases/tag/v3.0

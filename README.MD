@@ -80,61 +80,83 @@ Module otomatis bekerja setelah boot dan mendeteksi game yang berjalan.
 
 ### Manual Mode
 Buka terminal (Termux/ADB) dan jalankan:
-```bash
+
 su -c gaming_tweaks
+
 Menu Options:
+- Optimize running games
+- Extreme performance mode
+- Balanced mode
+- Clear RAM & cache
+- FPS monitor
+- Show device info
 
-Optimize running games
+---
 
-Extreme performance mode
+## 📊 PERFORMANCE BENCHMARK
 
-Balanced mode
+| Game | Before | After | Graphics Settings |
+|------|--------|-------|-------------------|
+| PUBG Mobile | 40-50 FPS | 55-60 FPS | Smooth + Extreme |
+| Mobile Legends | 55-60 FPS | 60 FPS Stable | Ultra Graphics |
+| Genshin Impact | 25-30 FPS | 35-45 FPS | Medium 60FPS |
+| CODM | 50-55 FPS | 60 FPS | Very High + Max |
+| Free Fire | 50-55 FPS | 60 FPS | Ultra |
 
-Clear RAM & cache
+---
 
-FPS monitor
+## ⚠️ PERINGATAN
 
-Show device info
-
-📊 PERFORMANCE BENCHMARK
-Game	Before	After	Graphics Settings
-PUBG Mobile	40-50 FPS	55-60 FPS	Smooth + Extreme
-Mobile Legends	55-60 FPS	60 FPS Stable	Ultra Graphics
-Genshin Impact	25-30 FPS	35-45 FPS	Medium 60FPS
-CODM	50-55 FPS	60 FPS	Very High + Max
-Free Fire	50-55 FPS	60 FPS	Ultra
-⚠️ PERINGATAN
 🔥 Thermal Warning: Suhu device bisa mencapai 45-50°C saat gaming intensif. Gunakan cooling fan eksternal untuk sesi gaming panjang. Jangan gunakan sambil charging. Monitor suhu menggunakan CPU-Z atau DevCheck.
 
 🔋 Battery: Battery life berkurang 20-30% saat mode gaming aktif. Mode Extreme lebih boros battery. Gunakan Balanced Mode untuk gaming casual.
 
 🛡️ Safety: Sudah di test di Redmi Note 10S MIUI 13. Tidak menyebabkan bootloop. Bisa uninstall kapan saja. Backup data penting sebelum install.
 
-🐛 TROUBLESHOOTING
+---
+
+## 🐛 TROUBLESHOOTING
+
 Module tidak aktif setelah reboot: ls /data/adb/modules/gaming_perf_rn10s
 
 Game tidak terdeteksi otomatis: su -c gaming_tweaks lalu pilih option 1
 
 Device terlalu panas: Aktifkan Balanced Mode, turunkan pengaturan grafis game, gunakan cooling fan
 
-🗑️ UNINSTALL
+---
+
+## 🗑️ UNINSTALL
+
 Via Manager: Magisk/KernelSU → Modules → Remove → Reboot
 
 Via Terminal: rm -rf /data/adb/modules/gaming_perf_rn10s && reboot
 
-📝 CHANGELOG
+---
+
+## 📝 CHANGELOG
+
 v3.0: Complete rewrite Helio G95, Auto game detection, Terminal UI, ZRAM LZ4, Kyber I/O scheduler
 
 v2.0: GPU boost, Memory management
 
 v1.0: Initial release
 
-🙏 CREDITS
+---
+
+## 🙏 CREDITS
+
 topjohnwu (Magisk) | KernelSU Team | Redmi Note 10S Community
 
-⭐ SUPPORT
+---
+
+## ⭐ SUPPORT
+
 Jika module ini membantu, berikan star di repository ini!
 
+---
+
 Disclaimer: Module ini tidak berafiliasi dengan Xiaomi atau MediaTek. Gunakan dengan resiko sendiri.
+
+---
 
 Download file zip dibawah ini 👇

@@ -1,0 +1,29 @@
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+._*
+
+# Build
+*.zip
+build/
+dist/
+
+# IDE
+.vscode/
+.idea/
+
+# Temp files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Module backup
+backup/
+*.tar.gz
+
+# Logs
+*.log
